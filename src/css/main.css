@@ -1,0 +1,126 @@
+table {
+  width: 1150px; }
+
+tr {
+  height: 75px; }
+
+.payment-col {
+  width: 250px; }
+
+th, td {
+  text-align: right;
+  color: #969ba1; }
+
+tr.disabled {
+  opacity: .5; }
+  tr.disabled:hover {
+    background: #fff; }
+
+tbody > tr:hover {
+  background: #fff7e4; }
+
+button {
+  cursor: pointer; }
+  button:disabled {
+    cursor: no-drop; }
+
+button.default {
+  background: #4097dc;
+  color: #ffffff;
+  border: none;
+  padding: 17px 27px;
+  -webkit-border-radius: 28px;
+          border-radius: 28px;
+  font-size: 11px;
+  width: 180px;
+  margin: 0 auto; }
+
+.modal-wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -webkit-box-shadow: inset 0 0 10px 10px #fff;
+          box-shadow: inset 0 0 10px 10px #fff;
+  background: rgba(255, 255, 255, 0.3); }
+
+.modal {
+  position: absolute;
+  width: 550px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  margin: -150px -275px;
+  background: #ffffff;
+  -webkit-box-shadow: 0 0 60px 5px #4097dc;
+          box-shadow: 0 0 60px 5px #4097dc;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+  .modal h2 {
+    height: 70px;
+    border-bottom: solid 2px grey;
+    font-size: 20px;
+    font-weight: bold; }
+
+.close-modal {
+  border: none;
+  background: transparent;
+  position: absolute;
+  top: -100px;
+  left: 250px; }
+
+.payment {
+  position: relative;
+  text-align: left;
+  padding: 0 0 0 50px; }
+  .payment h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4097dc; }
+  .payment p {
+    margin: 0;
+    font-size: 12px;
+    text-align: left; }
+
+.cancel-payment {
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font: normal 16px Arial; }
+
+.container {
+  width: 1150px;
+  margin: 0 auto; }
+
+header {
+  height: 75px; }
+
+p, h1 {
+  text-align: center;
+  color: #969ba1; }
+
+p {
+  margin: 55px 0 25px 0; }
+
+.main-heading {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px; }
